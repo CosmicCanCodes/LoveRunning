@@ -26,7 +26,7 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
-    
+
 }
 
 header a {
@@ -45,10 +45,10 @@ h1 {
     font-size: 110%;
     letter-spacing: 4px;
     list-style-type: none;
-   
+
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 1em;
 }
 
@@ -60,12 +60,13 @@ h1 {
 nav {
     position: absolute;
     background-color: #ffffff;
-    padding: 0 1rem;        
+    padding: 0 1rem;
     width: 100%;
     left: 0;
-    padding: 03rem,
-    box-shadow: 0 px px 
-    
+    padding: 03rem;
+        box-shadow: 0 2px 2p x #3a3a3a;
+    display: none;
+
 }
 
 /* Main Content */
