@@ -144,14 +144,14 @@ main {
 }
 
 #circle-cover-bg {
-    background: url("../images/reasons-image.webp") no-repeat center;
+    background: url("../images/reasons-image.webp") no-repeat top center / cover;
     height: 90vw;
     width: 90vw; 
     margin-bottom: 20px; 
     /*Makes img into a circle*/
     border-radius: 50%;
     max-width:300px;
-    max-height: 300px:
+    max-height: 300px;
 }
 
 #benefits-img{
