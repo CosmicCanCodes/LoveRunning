@@ -164,6 +164,19 @@ main {
     align-itemms: center;
     justify-content: center;
 }
+
+/* Gallery Page*/
+
+#photos img {
+    width:100%;
+    /*In case the img doesn't load, this prevents the alt text to be covered by following img*/
+    line-height: 1em;
+}
+
+#photos {
+    /*This eradicates the line between the imgs, since the browser reads the imgs as text*/
+    line-height: 0;
+}
 /* Footer */
 #social-networks {
     text-align: center;
